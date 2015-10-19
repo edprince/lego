@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/lego-log//</link>
+    <atom:link href="http://yourdomain.com/lego-log//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 19 Oct 2015 14:39:13 +0100</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2015 14:39:13 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Week 3 roundup</title>
+        <description>&lt;h1 id=&quot;movement&quot;&gt;Movement&lt;/h1&gt;
+&lt;p&gt;This week we have added looped movement to the robot, so it will
+continuously move, and (mostly) doesn’t crash into any walls. Exceptions
+have proven to be irregular objects like legs/chairs etc. It proves very
+successful with regular walls though.&lt;/p&gt;
+
+&lt;p&gt;This week we have also successfully implemented mobile phone controlled
+movement for the robot. This would allow the user to connect their phone
+to the robot via bluetooth, and control the motors.&lt;/p&gt;
+
+&lt;p&gt;We have drawn up flow charts for the game.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 16 Oct 2015 18:16:53 +0100</pubDate>
+        <link>http://yourdomain.com/lego-log//jekyll/update/2015/10/16/week3.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego-log//jekyll/update/2015/10/16/week3.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 2 roundup</title>
+        <description>&lt;h1 id=&quot;the-robot&quot;&gt;The robot&lt;/h1&gt;
+&lt;p&gt;This week we have finished building the robot, and added a touch and
+optical sensor. We have also tested the optical and infra-red sensors
+stopping the robot from crashing into walls. The optical sensor has
+allowed us to react to detection of any of a selection of colours.&lt;/p&gt;
+
+&lt;p&gt;We have also decided on our game as a maze, in which the robot has to
+navigate, and react with various objects. This approach allows us to
+have a reasonable amount of modularity for new obstacles in the maze.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 08 Oct 2015 18:16:53 +0100</pubDate>
+        <link>http://yourdomain.com/lego-log//jekyll/update/2015/10/08/week2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego-log//jekyll/update/2015/10/08/week2.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 1 roundup</title>
+        <description>&lt;p&gt;So, we have now had two sessions on the project. We have decided on a game, a varied maze for the robot to
+complete in as little time as possible, with obstacles it must tackle. We have set up a Google Docs for us
+all to collaborate on, and a Facebook group to keep in communication.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-strengths&quot;&gt;My Strengths&lt;/h1&gt;
+&lt;p&gt;My biggest strength in the field is web development, which in this project is likely not to be needed, at least
+not much. After this, I feel I work well as part of a team, but would like to improve upon my ability to push
+ideas forward, and not shy away.&lt;/p&gt;
+
+&lt;h1 id=&quot;our-game&quot;&gt;Our Game&lt;/h1&gt;
+&lt;p&gt;The maze game should allow us to incorporate as many or as few of the robots potential capabilities as we can, 
+as we can simply add in new obstacles that will challenge it. We need to work on the controlling of the robot. 
+Ideally, we would have a player control it from either the computer or even better a smartphone, but this may
+end up being impractically difficult.&lt;/p&gt;
+
+&lt;p&gt;We have talked about using the colour detection to detect an object and place it into the correct pot.
+We wondered about there being physical obstacles for the robot to pick up in order to clear its path.
+The display screen on the robot would allow us to display the number of points, most likely starting at x, 
+and decrement by 1 per second, to leave the player with a final score at the end of the maze. The points may
+stop decrementing when it passes a finish line of a certain colour, causing it to stop (and dance?).&lt;/p&gt;
+
+&lt;p&gt;Movement will be essential to navigate through the maze.
+The line following feature may be able to be added. We could start 3 pieces of string in the same place, and the 
+robot would try and follow, making it random for the player which path the robot took.&lt;/p&gt;
+
+&lt;p&gt;This leaves:&lt;br /&gt;
+ - Sound detection&lt;br /&gt;
+ - Button press input&lt;br /&gt;
+ - Line following&lt;br /&gt;
+ - Responding to an event&lt;br /&gt;
+ - Learning&lt;br /&gt;
+ - Timing control for an activity (robot is sad if maze is not completed within a certain time limit?)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 Oct 2015 18:16:53 +0100</pubDate>
+        <link>http://yourdomain.com/lego-log//jekyll/update/2015/10/01/week1.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego-log//jekyll/update/2015/10/01/week1.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
