@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Week 3 roundup</title>
-  <meta name="description" content="MovementThis week we have added looped movement to the robot, so it willcontinuously move, and (mostly) doesn&#8217;t crash into any walls. Exceptionshave pr...">
+  <title>Bluetooth and gameplay</title>
+  <meta name="description" content="BluetoothDespite getting the bluetooth working with one app earlier on in the process,we needed to use bluetooth and a certain app to interact with the robot...">
 
   <link rel="stylesheet" href="/lego//css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/lego//jekyll/update/2015/10/16/week3.html">
+  <link rel="canonical" href="http://yourdomain.com/lego//jekyll/update/2015/11/09/week7.html">
   <link rel="alternate" type="application/rss+xml" title="ALL Lego Robot Game" href="http://yourdomain.com/lego//feed.xml" />
 </head>
 
@@ -57,26 +57,29 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Week 3 roundup</h1>
-    <p class="post-meta">Oct 16, 2015</p>
+    <h1 class="post-title">Bluetooth and gameplay</h1>
+    <p class="post-meta">Nov 9, 2015</p>
   </header>
 
   <article class="post-content">
-    <h1 id="movement">Movement</h1>
-<p>This week we have added looped movement to the robot, so it will
-continuously move, and (mostly) doesn’t crash into any walls. Exceptions
-have proven to be irregular objects like legs/chairs etc. It proves very
-successful with regular walls though.</p>
+    <h1 id="bluetooth">Bluetooth</h1>
+<p>Despite getting the bluetooth working with one app earlier on in the process,
+we needed to use bluetooth and a certain app to interact with the robot
+successfully. The new app allows us to send/recieve messages to and from the
+robot, and should not at all interfere with the existing program on the robot
+itself.</p>
 
-<p>This week we have also successfully implemented mobile phone controlled
-movement for the robot. This would allow the user to connect their phone
-to the robot via bluetooth, and control the motors.</p>
-
-<h1 id="update-to-movement">Update to movement</h1>
-<p>Due to complexity and possible conflicts between the loaded program and
-phone instructions, we have decided to attempt to automate the maze.
-This will include implementing line following. We will also automate the
-acquisition and transportation of the objects.</p>
+<h1 id="gameplay">Gameplay</h1>
+<p>We have also changed the gameplay slightly. After conversing with the tutors, we
+realised that we needed to add more complexity. Since the line following was
+presenting many difficulties (due to the placement of the sensor, and the tracks
+on the robot), we decided to focus more heavily on an adaptable-maze-solving
+robot. The maze shall be built using large square tiles with different tape
+pathways. The tile approach allows us to change/adapt the maze and prove that
+our robot can still solve it. To make the game more interactable with users, we
+have decided to place different types of object in the maze, and make the user
+decide which objects to pick up/where to put them. This can be done with the
+bluetooth messaging.</p>
 
 
   </article>

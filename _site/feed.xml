@@ -1,14 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>ALL Lego Robot Game</title>
+    <description>My IPP for the Lego Robot Project. Contains weekly updates of our progress with regards to our game. Powered by Jekyll and Github pages.
 </description>
-    <link>http://yourdomain.com/lego-log//</link>
-    <atom:link href="http://yourdomain.com/lego-log//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Oct 2015 14:39:13 +0100</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2015 14:39:13 +0100</lastBuildDate>
+    <link>http://yourdomain.com/lego//</link>
+    <atom:link href="http://yourdomain.com/lego//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Nov 2015 15:32:50 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2015 15:32:50 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Bluetooth and gameplay</title>
+        <description>&lt;h1 id=&quot;bluetooth&quot;&gt;Bluetooth&lt;/h1&gt;
+&lt;p&gt;Despite getting the bluetooth working with one app earlier on in the process,
+we needed to use bluetooth and a certain app to interact with the robot
+successfully. The new app allows us to send/recieve messages to and from the
+robot, and should not at all interfere with the existing program on the robot
+itself.&lt;/p&gt;
+
+&lt;h1 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h1&gt;
+&lt;p&gt;We have also changed the gameplay slightly. After conversing with the tutors, we
+realised that we needed to add more complexity. Since the line following was
+presenting many difficulties (due to the placement of the sensor, and the tracks
+on the robot), we decided to focus more heavily on an adaptable-maze-solving
+robot. The maze shall be built using large square tiles with different tape
+pathways. The tile approach allows us to change/adapt the maze and prove that
+our robot can still solve it. To make the game more interactable with users, we
+have decided to place different types of object in the maze, and make the user
+decide which objects to pick up/where to put them. This can be done with the
+bluetooth messaging.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Nov 2015 15:20:21 +0000</pubDate>
+        <link>http://yourdomain.com/lego//jekyll/update/2015/11/09/week7.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego//jekyll/update/2015/11/09/week7.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Week 4 roundup</title>
+        <description>&lt;h1 id=&quot;flowchart-exmaple&quot;&gt;Flowchart exmaple&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;./images/lrg.png&quot; alt=&quot;flowchart&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;update-to-movement&quot;&gt;Update to movement&lt;/h1&gt;
+&lt;p&gt;Movement testing
+Object pickup testing
+Line following testing
+Game update&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 16 Oct 2015 18:16:53 +0100</pubDate>
+        <link>http://yourdomain.com/lego//jekyll/update/2015/10/16/week4.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego//jekyll/update/2015/10/16/week4.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Week 3 roundup</title>
@@ -22,12 +78,16 @@ successful with regular walls though.&lt;/p&gt;
 movement for the robot. This would allow the user to connect their phone
 to the robot via bluetooth, and control the motors.&lt;/p&gt;
 
-&lt;p&gt;We have drawn up flow charts for the game.&lt;/p&gt;
+&lt;h1 id=&quot;update-to-movement&quot;&gt;Update to movement&lt;/h1&gt;
+&lt;p&gt;Due to complexity and possible conflicts between the loaded program and
+phone instructions, we have decided to attempt to automate the maze.
+This will include implementing line following. We will also automate the
+acquisition and transportation of the objects.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 16 Oct 2015 18:16:53 +0100</pubDate>
-        <link>http://yourdomain.com/lego-log//jekyll/update/2015/10/16/week3.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/lego-log//jekyll/update/2015/10/16/week3.html</guid>
+        <link>http://yourdomain.com/lego//jekyll/update/2015/10/16/week3.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego//jekyll/update/2015/10/16/week3.html</guid>
         
         
         <category>jekyll</category>
@@ -44,14 +104,18 @@ optical sensor. We have also tested the optical and infra-red sensors
 stopping the robot from crashing into walls. The optical sensor has
 allowed us to react to detection of any of a selection of colours.&lt;/p&gt;
 
+&lt;p&gt;We have also experimented with playing sounds, both from the EV3 library
+and our own custom mp3 tracks. Along with this, we succeeded in
+displaying data on the display screen located on the brick of the robot.&lt;/p&gt;
+
 &lt;p&gt;We have also decided on our game as a maze, in which the robot has to
 navigate, and react with various objects. This approach allows us to
 have a reasonable amount of modularity for new obstacles in the maze.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 08 Oct 2015 18:16:53 +0100</pubDate>
-        <link>http://yourdomain.com/lego-log//jekyll/update/2015/10/08/week2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/lego-log//jekyll/update/2015/10/08/week2.html</guid>
+        <link>http://yourdomain.com/lego//jekyll/update/2015/10/08/week2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego//jekyll/update/2015/10/08/week2.html</guid>
         
         
         <category>jekyll</category>
@@ -97,8 +161,8 @@ robot would try and follow, making it random for the player which path the robot
 
 </description>
         <pubDate>Thu, 01 Oct 2015 18:16:53 +0100</pubDate>
-        <link>http://yourdomain.com/lego-log//jekyll/update/2015/10/01/week1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/lego-log//jekyll/update/2015/10/01/week1.html</guid>
+        <link>http://yourdomain.com/lego//jekyll/update/2015/10/01/week1.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/lego//jekyll/update/2015/10/01/week1.html</guid>
         
         
         <category>jekyll</category>
