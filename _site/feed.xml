@@ -4,10 +4,10 @@
     <title>ALL Lego Robot Game</title>
     <description>My IPP for the Lego Robot Project. Contains weekly updates of our progress with regards to our game. Powered by Jekyll and Github pages.
 </description>
-    <link>www.yourdomain.com/lego//</link>
-    <atom:link href="www.yourdomain.com/lego//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Nov 2015 01:13:09 +0000</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2015 01:13:09 +0000</lastBuildDate>
+    <link>edprince.u/lego//</link>
+    <atom:link href="edprince.u/lego//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 Nov 2015 01:50:32 +0000</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2015 01:50:32 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,8 +45,8 @@ game is over.&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 15 Nov 2015 18:19:34 +0000</pubDate>
-        <link>www.yourdomain.com/lego//jekyll/update/2015/11/15/week8.html</link>
-        <guid isPermaLink="true">www.yourdomain.com/lego//jekyll/update/2015/11/15/week8.html</guid>
+        <link>edprince.u/lego//jekyll/update/2015/11/15/week8.html</link>
+        <guid isPermaLink="true">edprince.u/lego//jekyll/update/2015/11/15/week8.html</guid>
         
         
         <category>jekyll</category>
@@ -78,8 +78,8 @@ bluetooth messaging.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 09 Nov 2015 15:20:21 +0000</pubDate>
-        <link>www.yourdomain.com/lego//jekyll/update/2015/11/09/week7.html</link>
-        <guid isPermaLink="true">www.yourdomain.com/lego//jekyll/update/2015/11/09/week7.html</guid>
+        <link>edprince.u/lego//jekyll/update/2015/11/09/week7.html</link>
+        <guid isPermaLink="true">edprince.u/lego//jekyll/update/2015/11/09/week7.html</guid>
         
         
         <category>jekyll</category>
@@ -91,7 +91,8 @@ bluetooth messaging.&lt;/p&gt;
       <item>
         <title>Week 4 roundup</title>
         <description>&lt;h1 id=&quot;flowchart-exmaple&quot;&gt;Flowchart exmaple&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;./images/lrg.png&quot; alt=&quot;flowchart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/iiAEHx5.png&quot; alt=&quot;Flowchart&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;update-to-movement&quot;&gt;Update to movement&lt;/h1&gt;
 &lt;p&gt;Movement testing
@@ -101,8 +102,8 @@ Game update&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 16 Oct 2015 18:16:53 +0100</pubDate>
-        <link>www.yourdomain.com/lego//jekyll/update/2015/10/16/week4.html</link>
-        <guid isPermaLink="true">www.yourdomain.com/lego//jekyll/update/2015/10/16/week4.html</guid>
+        <link>edprince.u/lego//jekyll/update/2015/10/16/week4.html</link>
+        <guid isPermaLink="true">edprince.u/lego//jekyll/update/2015/10/16/week4.html</guid>
         
         
         <category>jekyll</category>
@@ -131,8 +132,8 @@ acquisition and transportation of the objects.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 16 Oct 2015 18:16:53 +0100</pubDate>
-        <link>www.yourdomain.com/lego//jekyll/update/2015/10/16/week3.html</link>
-        <guid isPermaLink="true">www.yourdomain.com/lego//jekyll/update/2015/10/16/week3.html</guid>
+        <link>edprince.u/lego//jekyll/update/2015/10/16/week3.html</link>
+        <guid isPermaLink="true">edprince.u/lego//jekyll/update/2015/10/16/week3.html</guid>
         
         
         <category>jekyll</category>
@@ -159,8 +160,8 @@ have a reasonable amount of modularity for new obstacles in the maze.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 08 Oct 2015 18:16:53 +0100</pubDate>
-        <link>www.yourdomain.com/lego//jekyll/update/2015/10/08/week2.html</link>
-        <guid isPermaLink="true">www.yourdomain.com/lego//jekyll/update/2015/10/08/week2.html</guid>
+        <link>edprince.u/lego//jekyll/update/2015/10/08/week2.html</link>
+        <guid isPermaLink="true">edprince.u/lego//jekyll/update/2015/10/08/week2.html</guid>
         
         
         <category>jekyll</category>
@@ -206,8 +207,8 @@ robot would try and follow, making it random for the player which path the robot
 
 </description>
         <pubDate>Thu, 01 Oct 2015 18:16:53 +0100</pubDate>
-        <link>www.yourdomain.com/lego//jekyll/update/2015/10/01/week1.html</link>
-        <guid isPermaLink="true">www.yourdomain.com/lego//jekyll/update/2015/10/01/week1.html</guid>
+        <link>edprince.u/lego//jekyll/update/2015/10/01/week1.html</link>
+        <guid isPermaLink="true">edprince.u/lego//jekyll/update/2015/10/01/week1.html</guid>
         
         
         <category>jekyll</category>
